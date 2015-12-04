@@ -17,8 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //初始化window， 大小为设备物理大小
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        //把window的背景颜色改成白色
         self.window?.backgroundColor = UIColor.whiteColor()
+        //让window作为主window显示
         self.window?.makeKeyAndVisible()
         return true
     }
