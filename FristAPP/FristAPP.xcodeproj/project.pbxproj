@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F0567F1C115EC200A52DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0567E1C115EC200A52DCC /* AppDelegate.swift */; };
+		A4F056811C115EC200A52DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F056801C115EC200A52DCC /* ViewController.swift */; };
+		A4F056841C115EC200A52DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F056821C115EC200A52DCC /* Main.storyboard */; };
+		A4F056871C115EC200A52DCC /* FristAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4F056851C115EC200A52DCC /* FristAPP.xcdatamodeld */; };
+		A4F056891C115EC200A52DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F056881C115EC200A52DCC /* Assets.xcassets */; };
+		A4F0568C1C115EC200A52DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F0568A1C115EC200A52DCC /* LaunchScreen.storyboard */; };
+		A4F056971C115EC200A52DCC /* FristAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F056961C115EC200A52DCC /* FristAPPTests.swift */; };
+		A4F056A21C115EC200A52DCC /* FristAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F056A11C115EC200A52DCC /* FristAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F056931C115EC200A52DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F056731C115EC200A52DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F0567A1C115EC200A52DCC;
+			remoteInfo = FristAPP;
+		};
+		A4F0569E1C115EC200A52DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F056731C115EC200A52DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F0567A1C115EC200A52DCC;
+			remoteInfo = FristAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F0567B1C115EC200A52DCC /* FristAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FristAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F0567E1C115EC200A52DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F056801C115EC200A52DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4F056831C115EC200A52DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F056861C115EC200A52DCC /* FristAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FristAPP.xcdatamodel; sourceTree = "<group>"; };
+		A4F056881C115EC200A52DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F0568B1C115EC200A52DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F0568D1C115EC200A52DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F056921C115EC200A52DCC /* FristAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FristAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F056961C115EC200A52DCC /* FristAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristAPPTests.swift; sourceTree = "<group>"; };
+		A4F056981C115EC200A52DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F0569D1C115EC200A52DCC /* FristAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FristAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F056A11C115EC200A52DCC /* FristAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristAPPUITests.swift; sourceTree = "<group>"; };
+		A4F056A31C115EC200A52DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F056781C115EC200A52DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0568F1C115EC200A52DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0569A1C115EC200A52DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F056721C115EC200A52DCC = {
+			isa = PBXGroup;
+			children = (
+				A4F0567D1C115EC200A52DCC /* FristAPP */,
+				A4F056951C115EC200A52DCC /* FristAPPTests */,
+				A4F056A01C115EC200A52DCC /* FristAPPUITests */,
+				A4F0567C1C115EC200A52DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F0567C1C115EC200A52DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0567B1C115EC200A52DCC /* FristAPP.app */,
+				A4F056921C115EC200A52DCC /* FristAPPTests.xctest */,
+				A4F0569D1C115EC200A52DCC /* FristAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F0567D1C115EC200A52DCC /* FristAPP */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0567E1C115EC200A52DCC /* AppDelegate.swift */,
+				A4F056801C115EC200A52DCC /* ViewController.swift */,
+				A4F056821C115EC200A52DCC /* Main.storyboard */,
+				A4F056881C115EC200A52DCC /* Assets.xcassets */,
+				A4F0568A1C115EC200A52DCC /* LaunchScreen.storyboard */,
+				A4F0568D1C115EC200A52DCC /* Info.plist */,
+				A4F056851C115EC200A52DCC /* FristAPP.xcdatamodeld */,
+			);
+			path = FristAPP;
+			sourceTree = "<group>";
+		};
+		A4F056951C115EC200A52DCC /* FristAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F056961C115EC200A52DCC /* FristAPPTests.swift */,
+				A4F056981C115EC200A52DCC /* Info.plist */,
+			);
+			path = FristAPPTests;
+			sourceTree = "<group>";
+		};
+		A4F056A01C115EC200A52DCC /* FristAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F056A11C115EC200A52DCC /* FristAPPUITests.swift */,
+				A4F056A31C115EC200A52DCC /* Info.plist */,
+			);
+			path = FristAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F0567A1C115EC200A52DCC /* FristAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F056A61C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPP" */;
+			buildPhases = (
+				A4F056771C115EC200A52DCC /* Sources */,
+				A4F056781C115EC200A52DCC /* Frameworks */,
+				A4F056791C115EC200A52DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FristAPP;
+			productName = FristAPP;
+			productReference = A4F0567B1C115EC200A52DCC /* FristAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F056911C115EC200A52DCC /* FristAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F056A91C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPPTests" */;
+			buildPhases = (
+				A4F0568E1C115EC200A52DCC /* Sources */,
+				A4F0568F1C115EC200A52DCC /* Frameworks */,
+				A4F056901C115EC200A52DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F056941C115EC200A52DCC /* PBXTargetDependency */,
+			);
+			name = FristAPPTests;
+			productName = FristAPPTests;
+			productReference = A4F056921C115EC200A52DCC /* FristAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F0569C1C115EC200A52DCC /* FristAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F056AC1C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPPUITests" */;
+			buildPhases = (
+				A4F056991C115EC200A52DCC /* Sources */,
+				A4F0569A1C115EC200A52DCC /* Frameworks */,
+				A4F0569B1C115EC200A52DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F0569F1C115EC200A52DCC /* PBXTargetDependency */,
+			);
+			name = FristAPPUITests;
+			productName = FristAPPUITests;
+			productReference = A4F0569D1C115EC200A52DCC /* FristAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F056731C115EC200A52DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kevin;
+				TargetAttributes = {
+					A4F0567A1C115EC200A52DCC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HS8G89KFLT;
+					};
+					A4F056911C115EC200A52DCC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HS8G89KFLT;
+						TestTargetID = A4F0567A1C115EC200A52DCC;
+					};
+					A4F0569C1C115EC200A52DCC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HS8G89KFLT;
+						TestTargetID = A4F0567A1C115EC200A52DCC;
+					};
+				};
+			};
+			buildConfigurationList = A4F056761C115EC200A52DCC /* Build configuration list for PBXProject "FristAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F056721C115EC200A52DCC;
+			productRefGroup = A4F0567C1C115EC200A52DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F0567A1C115EC200A52DCC /* FristAPP */,
+				A4F056911C115EC200A52DCC /* FristAPPTests */,
+				A4F0569C1C115EC200A52DCC /* FristAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F056791C115EC200A52DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F0568C1C115EC200A52DCC /* LaunchScreen.storyboard in Resources */,
+				A4F056891C115EC200A52DCC /* Assets.xcassets in Resources */,
+				A4F056841C115EC200A52DCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F056901C115EC200A52DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0569B1C115EC200A52DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F056771C115EC200A52DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F056871C115EC200A52DCC /* FristAPP.xcdatamodeld in Sources */,
+				A4F056811C115EC200A52DCC /* ViewController.swift in Sources */,
+				A4F0567F1C115EC200A52DCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0568E1C115EC200A52DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F056971C115EC200A52DCC /* FristAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F056991C115EC200A52DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F056A21C115EC200A52DCC /* FristAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F056941C115EC200A52DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F0567A1C115EC200A52DCC /* FristAPP */;
+			targetProxy = A4F056931C115EC200A52DCC /* PBXContainerItemProxy */;
+		};
+		A4F0569F1C115EC200A52DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F0567A1C115EC200A52DCC /* FristAPP */;
+			targetProxy = A4F0569E1C115EC200A52DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F056821C115EC200A52DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F056831C115EC200A52DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F0568A1C115EC200A52DCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F0568B1C115EC200A52DCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F056A41C115EC200A52DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F056A51C115EC200A52DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F056A71C115EC200A52DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FristAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F056A81C115EC200A52DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FristAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4F056AA1C115EC200A52DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FristAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FristAPP.app/FristAPP";
+			};
+			name = Debug;
+		};
+		A4F056AB1C115EC200A52DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FristAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FristAPP.app/FristAPP";
+			};
+			name = Release;
+		};
+		A4F056AD1C115EC200A52DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FristAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FristAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4F056AE1C115EC200A52DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FristAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.FristAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FristAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F056761C115EC200A52DCC /* Build configuration list for PBXProject "FristAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F056A41C115EC200A52DCC /* Debug */,
+				A4F056A51C115EC200A52DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F056A61C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F056A71C115EC200A52DCC /* Debug */,
+				A4F056A81C115EC200A52DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F056A91C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F056AA1C115EC200A52DCC /* Debug */,
+				A4F056AB1C115EC200A52DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F056AC1C115EC200A52DCC /* Build configuration list for PBXNativeTarget "FristAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F056AD1C115EC200A52DCC /* Debug */,
+				A4F056AE1C115EC200A52DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4F056851C115EC200A52DCC /* FristAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4F056861C115EC200A52DCC /* FristAPP.xcdatamodel */,
+			);
+			currentVersion = A4F056861C115EC200A52DCC /* FristAPP.xcdatamodel */;
+			path = FristAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4F056731C115EC200A52DCC /* Project object */;
+}
