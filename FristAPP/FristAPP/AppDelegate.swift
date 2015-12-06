@@ -25,8 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //让window作为主window显示
         self.window?.makeKeyAndVisible()
 
-        //main screen
-
         return true
     }
 
